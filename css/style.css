@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+body{
+    background-color: #FAFAFA;
+}
+footer {
+  padding-top: 2%;
+}
+footer h6 {
+  margin-bottom: 10%;
+}
+.container {
+  margin-top: 10%;
+}
+.head { 
+  font-family: 'Pacifico', cursive;
+  padding-bottom: 2%;
+}
+.settings {
+  
+}
+.level {
+  margin-right: 1%;
+  font-weight: 500;
+}
+.btn {
+  color: #fff !important;
+}
+.game-field {
+  padding-top: 13%;
+  margin-left: auto;
+  margin-right: auto;
+}
+table {
+  width: 100%;
+}
+td {
+  width: 50%;
+  position: relative;
+  border: 2px solid #37474F;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+td .colors {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#c1 {
+  background-color:#43A047;
+}
+#c2 {
+  background-color:#E53935;
+}
+#c3 {
+  background-color:#FBC02D;
+}
+#c4 {
+  background-color:#039BE5;
+}
